@@ -53,6 +53,12 @@ h3 {
     }
 }
 
+@media screen and (max-width: $break-small) {
+    body {
+        font-size: 1em;
+    }
+}
+
 img.portrait {
     box-sizing: border-box;
     border-radius: 50%;
